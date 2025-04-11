@@ -1,6 +1,6 @@
 package com.example.pontuada.model;
 
-public enum EstadoCivil
+public enum EstadoCivil //Estados civis possíveis para um funcionário
 {
     SOLTEIRO,
     CASADO,

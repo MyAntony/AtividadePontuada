@@ -8,5 +8,5 @@ import com.example.pontuada.model.Funcionario;
 
 public interface FuncionarioRepository extends JpaRepository<Funcionario, Long>
 {
-    Optional<Funcionario> findByEmail(String Email);
+    Optional<Funcionario> findByEmail(String Email); // Método para encontrar um funcionário pelo email
 }
